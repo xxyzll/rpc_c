@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/xx/桌面/rpc_c/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/rpc_c.dir/main.cpp.o -c /home/xx/桌面/rpc_c/main.cpp",
+  "file": "/home/xx/桌面/rpc_c/main.cpp"
+}
+]
