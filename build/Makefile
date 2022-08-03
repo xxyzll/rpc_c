@@ -520,6 +520,33 @@ ExperimentalBuild/fast:
 	$(MAKE) -f CMakeFiles/ExperimentalBuild.dir/build.make CMakeFiles/ExperimentalBuild.dir/build
 .PHONY : ExperimentalBuild/fast
 
+json_parser/json_parser/json_parser.o: json_parser/json_parser/json_parser.cpp.o
+
+.PHONY : json_parser/json_parser/json_parser.o
+
+# target to build an object file
+json_parser/json_parser/json_parser.cpp.o:
+	$(MAKE) -f CMakeFiles/rpc_c.dir/build.make CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.o
+.PHONY : json_parser/json_parser/json_parser.cpp.o
+
+json_parser/json_parser/json_parser.i: json_parser/json_parser/json_parser.cpp.i
+
+.PHONY : json_parser/json_parser/json_parser.i
+
+# target to preprocess a source file
+json_parser/json_parser/json_parser.cpp.i:
+	$(MAKE) -f CMakeFiles/rpc_c.dir/build.make CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.i
+.PHONY : json_parser/json_parser/json_parser.cpp.i
+
+json_parser/json_parser/json_parser.s: json_parser/json_parser/json_parser.cpp.s
+
+.PHONY : json_parser/json_parser/json_parser.s
+
+# target to generate assembly for a file
+json_parser/json_parser/json_parser.cpp.s:
+	$(MAKE) -f CMakeFiles/rpc_c.dir/build.make CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.s
+.PHONY : json_parser/json_parser/json_parser.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -546,6 +573,87 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/rpc_c.dir/build.make CMakeFiles/rpc_c.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+network_manager/network_manager.o: network_manager/network_manager.cpp.o
+
+.PHONY : network_manager/network_manager.o
+
+# target to build an object file
+network_manager/network_manager.cpp.o:
+	$(MAKE) -f CMakeFiles/rpc_c.dir/build.make CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.o
+.PHONY : network_manager/network_manager.cpp.o
+
+network_manager/network_manager.i: network_manager/network_manager.cpp.i
+
+.PHONY : network_manager/network_manager.i
+
+# target to preprocess a source file
+network_manager/network_manager.cpp.i:
+	$(MAKE) -f CMakeFiles/rpc_c.dir/build.make CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.i
+.PHONY : network_manager/network_manager.cpp.i
+
+network_manager/network_manager.s: network_manager/network_manager.cpp.s
+
+.PHONY : network_manager/network_manager.s
+
+# target to generate assembly for a file
+network_manager/network_manager.cpp.s:
+	$(MAKE) -f CMakeFiles/rpc_c.dir/build.make CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.s
+.PHONY : network_manager/network_manager.cpp.s
+
+rpc_server/rpc_server.o: rpc_server/rpc_server.cpp.o
+
+.PHONY : rpc_server/rpc_server.o
+
+# target to build an object file
+rpc_server/rpc_server.cpp.o:
+	$(MAKE) -f CMakeFiles/rpc_c.dir/build.make CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.o
+.PHONY : rpc_server/rpc_server.cpp.o
+
+rpc_server/rpc_server.i: rpc_server/rpc_server.cpp.i
+
+.PHONY : rpc_server/rpc_server.i
+
+# target to preprocess a source file
+rpc_server/rpc_server.cpp.i:
+	$(MAKE) -f CMakeFiles/rpc_c.dir/build.make CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.i
+.PHONY : rpc_server/rpc_server.cpp.i
+
+rpc_server/rpc_server.s: rpc_server/rpc_server.cpp.s
+
+.PHONY : rpc_server/rpc_server.s
+
+# target to generate assembly for a file
+rpc_server/rpc_server.cpp.s:
+	$(MAKE) -f CMakeFiles/rpc_c.dir/build.make CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.s
+.PHONY : rpc_server/rpc_server.cpp.s
+
+work/work.o: work/work.cpp.o
+
+.PHONY : work/work.o
+
+# target to build an object file
+work/work.cpp.o:
+	$(MAKE) -f CMakeFiles/rpc_c.dir/build.make CMakeFiles/rpc_c.dir/work/work.cpp.o
+.PHONY : work/work.cpp.o
+
+work/work.i: work/work.cpp.i
+
+.PHONY : work/work.i
+
+# target to preprocess a source file
+work/work.cpp.i:
+	$(MAKE) -f CMakeFiles/rpc_c.dir/build.make CMakeFiles/rpc_c.dir/work/work.cpp.i
+.PHONY : work/work.cpp.i
+
+work/work.s: work/work.cpp.s
+
+.PHONY : work/work.s
+
+# target to generate assembly for a file
+work/work.cpp.s:
+	$(MAKE) -f CMakeFiles/rpc_c.dir/build.make CMakeFiles/rpc_c.dir/work/work.cpp.s
+.PHONY : work/work.cpp.s
 
 # Help Target
 help:
@@ -587,9 +695,21 @@ help:
 	@echo "... ContinuousTest"
 	@echo "... ContinuousUpdate"
 	@echo "... ExperimentalBuild"
+	@echo "... json_parser/json_parser/json_parser.o"
+	@echo "... json_parser/json_parser/json_parser.i"
+	@echo "... json_parser/json_parser/json_parser.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... network_manager/network_manager.o"
+	@echo "... network_manager/network_manager.i"
+	@echo "... network_manager/network_manager.s"
+	@echo "... rpc_server/rpc_server.o"
+	@echo "... rpc_server/rpc_server.i"
+	@echo "... rpc_server/rpc_server.s"
+	@echo "... work/work.o"
+	@echo "... work/work.i"
+	@echo "... work/work.s"
 .PHONY : help
 
 

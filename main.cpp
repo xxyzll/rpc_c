@@ -1,5 +1,7 @@
 #include <iostream>
+#include "rpc_server/rpc_server.h"
 
 int main(int, char**) {
-    std::cout << "Hello, world!\n";
+    RPC_SERVER rpc_server(2);
+    rpc_server.run();
 }

@@ -81,17 +81,121 @@ CMakeFiles/rpc_c.dir/main.cpp.o.provides: CMakeFiles/rpc_c.dir/main.cpp.o.requir
 CMakeFiles/rpc_c.dir/main.cpp.o.provides.build: CMakeFiles/rpc_c.dir/main.cpp.o
 
 
+CMakeFiles/rpc_c.dir/work/work.cpp.o: CMakeFiles/rpc_c.dir/flags.make
+CMakeFiles/rpc_c.dir/work/work.cpp.o: ../work/work.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xx/桌面/rpc_c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rpc_c.dir/work/work.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpc_c.dir/work/work.cpp.o -c /home/xx/桌面/rpc_c/work/work.cpp
+
+CMakeFiles/rpc_c.dir/work/work.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpc_c.dir/work/work.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xx/桌面/rpc_c/work/work.cpp > CMakeFiles/rpc_c.dir/work/work.cpp.i
+
+CMakeFiles/rpc_c.dir/work/work.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpc_c.dir/work/work.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xx/桌面/rpc_c/work/work.cpp -o CMakeFiles/rpc_c.dir/work/work.cpp.s
+
+CMakeFiles/rpc_c.dir/work/work.cpp.o.requires:
+
+.PHONY : CMakeFiles/rpc_c.dir/work/work.cpp.o.requires
+
+CMakeFiles/rpc_c.dir/work/work.cpp.o.provides: CMakeFiles/rpc_c.dir/work/work.cpp.o.requires
+	$(MAKE) -f CMakeFiles/rpc_c.dir/build.make CMakeFiles/rpc_c.dir/work/work.cpp.o.provides.build
+.PHONY : CMakeFiles/rpc_c.dir/work/work.cpp.o.provides
+
+CMakeFiles/rpc_c.dir/work/work.cpp.o.provides.build: CMakeFiles/rpc_c.dir/work/work.cpp.o
+
+
+CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.o: CMakeFiles/rpc_c.dir/flags.make
+CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.o: ../rpc_server/rpc_server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xx/桌面/rpc_c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.o -c /home/xx/桌面/rpc_c/rpc_server/rpc_server.cpp
+
+CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xx/桌面/rpc_c/rpc_server/rpc_server.cpp > CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.i
+
+CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xx/桌面/rpc_c/rpc_server/rpc_server.cpp -o CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.s
+
+CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.o.requires:
+
+.PHONY : CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.o.requires
+
+CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.o.provides: CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.o.requires
+	$(MAKE) -f CMakeFiles/rpc_c.dir/build.make CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.o.provides.build
+.PHONY : CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.o.provides
+
+CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.o.provides.build: CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.o
+
+
+CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.o: CMakeFiles/rpc_c.dir/flags.make
+CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.o: ../network_manager/network_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xx/桌面/rpc_c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.o -c /home/xx/桌面/rpc_c/network_manager/network_manager.cpp
+
+CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xx/桌面/rpc_c/network_manager/network_manager.cpp > CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.i
+
+CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xx/桌面/rpc_c/network_manager/network_manager.cpp -o CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.s
+
+CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.o.requires:
+
+.PHONY : CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.o.requires
+
+CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.o.provides: CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.o.requires
+	$(MAKE) -f CMakeFiles/rpc_c.dir/build.make CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.o.provides.build
+.PHONY : CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.o.provides
+
+CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.o.provides.build: CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.o
+
+
+CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.o: CMakeFiles/rpc_c.dir/flags.make
+CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.o: ../json_parser/json_parser/json_parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xx/桌面/rpc_c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.o -c /home/xx/桌面/rpc_c/json_parser/json_parser/json_parser.cpp
+
+CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xx/桌面/rpc_c/json_parser/json_parser/json_parser.cpp > CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.i
+
+CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xx/桌面/rpc_c/json_parser/json_parser/json_parser.cpp -o CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.s
+
+CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.o.requires:
+
+.PHONY : CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.o.requires
+
+CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.o.provides: CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.o.requires
+	$(MAKE) -f CMakeFiles/rpc_c.dir/build.make CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.o.provides.build
+.PHONY : CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.o.provides
+
+CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.o.provides.build: CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.o
+
+
 # Object files for target rpc_c
 rpc_c_OBJECTS = \
-"CMakeFiles/rpc_c.dir/main.cpp.o"
+"CMakeFiles/rpc_c.dir/main.cpp.o" \
+"CMakeFiles/rpc_c.dir/work/work.cpp.o" \
+"CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.o" \
+"CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.o" \
+"CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.o"
 
 # External object files for target rpc_c
 rpc_c_EXTERNAL_OBJECTS =
 
 rpc_c: CMakeFiles/rpc_c.dir/main.cpp.o
+rpc_c: CMakeFiles/rpc_c.dir/work/work.cpp.o
+rpc_c: CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.o
+rpc_c: CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.o
+rpc_c: CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.o
 rpc_c: CMakeFiles/rpc_c.dir/build.make
 rpc_c: CMakeFiles/rpc_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xx/桌面/rpc_c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable rpc_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xx/桌面/rpc_c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable rpc_c"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rpc_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +204,10 @@ CMakeFiles/rpc_c.dir/build: rpc_c
 .PHONY : CMakeFiles/rpc_c.dir/build
 
 CMakeFiles/rpc_c.dir/requires: CMakeFiles/rpc_c.dir/main.cpp.o.requires
+CMakeFiles/rpc_c.dir/requires: CMakeFiles/rpc_c.dir/work/work.cpp.o.requires
+CMakeFiles/rpc_c.dir/requires: CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.o.requires
+CMakeFiles/rpc_c.dir/requires: CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.o.requires
+CMakeFiles/rpc_c.dir/requires: CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.o.requires
 
 .PHONY : CMakeFiles/rpc_c.dir/requires
 

@@ -3,5 +3,25 @@
   "directory": "/home/xx/桌面/rpc_c/build",
   "command": "/usr/bin/g++    -g   -o CMakeFiles/rpc_c.dir/main.cpp.o -c /home/xx/桌面/rpc_c/main.cpp",
   "file": "/home/xx/桌面/rpc_c/main.cpp"
+},
+{
+  "directory": "/home/xx/桌面/rpc_c/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/rpc_c.dir/work/work.cpp.o -c /home/xx/桌面/rpc_c/work/work.cpp",
+  "file": "/home/xx/桌面/rpc_c/work/work.cpp"
+},
+{
+  "directory": "/home/xx/桌面/rpc_c/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/rpc_c.dir/rpc_server/rpc_server.cpp.o -c /home/xx/桌面/rpc_c/rpc_server/rpc_server.cpp",
+  "file": "/home/xx/桌面/rpc_c/rpc_server/rpc_server.cpp"
+},
+{
+  "directory": "/home/xx/桌面/rpc_c/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/rpc_c.dir/network_manager/network_manager.cpp.o -c /home/xx/桌面/rpc_c/network_manager/network_manager.cpp",
+  "file": "/home/xx/桌面/rpc_c/network_manager/network_manager.cpp"
+},
+{
+  "directory": "/home/xx/桌面/rpc_c/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/rpc_c.dir/json_parser/json_parser/json_parser.cpp.o -c /home/xx/桌面/rpc_c/json_parser/json_parser/json_parser.cpp",
+  "file": "/home/xx/桌面/rpc_c/json_parser/json_parser/json_parser.cpp"
 }
 ]
